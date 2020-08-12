@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525352888733",
+    "firebase_url": "https://health-way-8a434.firebaseio.com",
+    "project_id": "health-way-8a434",
+    "storage_bucket": "health-way-8a434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525352888733:android:f033ba71e490e71b356774",
+        "android_client_info": {
+          "package_name": "com.example.healthway_dugeulja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525352888733-0qfblp2khqvbe8fdkf00k4r5btlkjbig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhqTHZ_BOvRRaI66WX8n_BBL0z7t3V-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525352888733-0qfblp2khqvbe8fdkf00k4r5btlkjbig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

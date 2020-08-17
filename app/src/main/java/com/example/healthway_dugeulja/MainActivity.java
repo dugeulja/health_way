@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
     ActionBarDrawerToggle actionBarDrawerToggle;
     ImageView imageView_navigationDrawerHeader;
     View view_navigationDrawerHeader;
-    com.example.ui_hs_0813.Fragment1 fragment1;
+    Fragment1 fragment1;
     Fragment2 fragment2;
-    com.example.ui_hs_0813.Fragment3 fragment3;
+    Fragment3 fragment3;
     Fragment4 fragment4;
 
     @Override
@@ -89,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
                 .into(imageView_navigationDrawerHeader);
 
         //create Fragments
-        fragment1 = new com.example.ui_hs_0813.Fragment1();
+        fragment1 = new Fragment1();
         fragment2 = new Fragment2();
-        fragment3 = new com.example.ui_hs_0813.Fragment3();
+        fragment3 = new Fragment3();
         fragment4 = new Fragment4();
 
         //제일 처음 띄울 뷰를 세팅, commit();까지 해야 함

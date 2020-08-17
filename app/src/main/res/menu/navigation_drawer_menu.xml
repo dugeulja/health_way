@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="menu list">
+        <menu>
+            <item
+                android:id="@+id/menu1"
+                android:title="menu1" />
+            <item
+                android:id="@+id/menu2"
+                android:title="menu2" />
+            <item
+                android:id="@+id/menu3"
+                android:title="menu3" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu4"
+            android:title="menu4" />
+        <item
+            android:id="@+id/menu5"
+            android:title="menu5" />
+    </group>
+</menu>

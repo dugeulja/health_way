@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:enabled="true"
+        android:checked="true"
+        android:title="menu_1"/>
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_local_bar_24"
+        android:enabled="true"
+        android:title="menu_2"/>
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:enabled="true"
+        android:title="menu_3"/>
+    <item
+        android:id="@+id/tab4"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:enabled="true"
+        android:title="menu_4"/>
+</menu>

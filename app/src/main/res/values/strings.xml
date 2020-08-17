@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">HealthWay_Dugeulja</string>
+    <string name="app_name">UI_hs_0813</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
 </resources>

@@ -2,6 +2,10 @@ package com.example.healthway_dugeulja;
 
 public class Video {
     private String thumbnail;
+    private String video_name;
+    private String url;
+
+    public Video(){}
 
     public String getThumbnail() {
         return thumbnail;
@@ -10,9 +14,6 @@ public class Video {
     public void setThumbnail(String thumbnail) {
         this.thumbnail = thumbnail;
     }
-
-    private String video_name;
-    private String url;
 
     public String getVideo_name() {
         return video_name;

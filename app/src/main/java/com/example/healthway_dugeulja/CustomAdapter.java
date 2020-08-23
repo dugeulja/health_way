@@ -29,13 +29,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.Customview
     public class CustomviewHolder extends RecyclerView.ViewHolder {
         ImageView iv_profile;
         TextView tv_id;
-        TextView tv_pw;
         TextView tv_userName;
         TextView tv_url;
 
         public CustomviewHolder(@NonNull View itemView) {
             super(itemView);
-            this.iv_profile = itemView.findViewById(R.id.iv_profile);
+            this.iv_profile = itemView.findViewById(R.id.profile_img);
+            this.tv_id = itemView.findViewById(R.id.user_name);
+
+
         }
     }
 }

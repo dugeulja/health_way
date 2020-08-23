@@ -1,15 +1,11 @@
 package com.example.healthway_dugeulja;
 
 public class User {
-
     private String profile;
     private String id;
-    private int pw;
     private String userName;
-    private String url;
 
     public User(){}
-
 
     public String getProfile() {
         return profile;
@@ -27,27 +23,11 @@ public class User {
         this.id = id;
     }
 
-    public int getPw() {
-        return pw;
-    }
-
-    public void setPw(int pw) {
-        this.pw = pw;
-    }
-
     public String getUserName() {
         return userName;
     }
 
     public void setUserName(String userName) {
         this.userName = userName;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 }

@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         //제일 처음 띄울 뷰를 세팅, commit();까지 해야 함
         getSupportFragmentManager().beginTransaction().replace(R.id.main_layout, fragment1).commitAllowingStateLoss();
 
-        //bottomNavigationView의 아이콘을 선택했을 때 원하는 Fragment가 띄워질 수 있도록 linster를 추가
+        //bottomNavigationView의 아이콘을 선택했을 때 원하는 Fragment가 띄워질 수 있도록 listener를 추가
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
     //RecyclerView를 위한 코드
 
         recyclerView = findViewById(R.id.recyclerView); // 아이디 연결
-        recyclerView.setHasFixedSize((true)); //리사이클러뷰 기존 성능 강화
+        recyclerView.setHasFixedSize(true); //리사이클러뷰 기존 성능 강화
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager((layoutManager));
         arrayList = new ArrayList<>(); //Video 객체를 담을 어레이 리스트 (어댑터쪽으로)
